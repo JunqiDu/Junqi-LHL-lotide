@@ -1,6 +1,5 @@
-console.log(head([5,6,7]), 5);
-console.log(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-
-function head(array){
+const head = function (array) {
   return array[0];
 }
+
+const assertEqual = require('./assertEqual');
