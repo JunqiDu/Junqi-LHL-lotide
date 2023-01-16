@@ -1,5 +1,4 @@
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-function tail(words) {
+const tail = function (words) {
   let newArray = [];
   if (words.length === 1) {
     newArray = words;
@@ -11,6 +10,6 @@ function tail(words) {
     }
   }
   return newArray;
-}
+};
 
-console.log(words.length, 3);
+const assertEqual = require('./assertEqual');
