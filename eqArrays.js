@@ -17,6 +17,6 @@ const eqArrays = function (array1, array2) {
     }
   }
 
-}
+};
 
-console.log(eqArrays([1, 2, 3], [1, 2, 3]), true);
+const assertEqual = require('./assertEqual');
